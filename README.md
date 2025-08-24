@@ -104,4 +104,14 @@ Sector ordering is stable: $B_{\rm vacuum} \gg B_{\rm gravity} \gtrsim B_{\rm co
 
 ---
 
-*Tagline:* **P = NP − $S_0$ bits.** With $S_0 \approx 916$ in the current pass.
+---
+## Tagline (Corollary)
+
+**P = NP − S₀ bits**
+
+with S₀ ≈ 916 in the current v0.1 pass (broad priors, placeholder viability penalties).
+
+This represents the finite entropy “price of certainty” paid at first observation,
+partitioned into the constants of nature.
+---
+
