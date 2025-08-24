@@ -23,9 +23,9 @@ $$
 ## Definitions
 
 - **Entropy seed** $S_0$: the minimal information needed to select a law‑bearing branch,
-$$
+$
 S_0 \;=\; \min_{\Pi\in\mathcal{P}}\ \Big\{ H_\Pi + \min_{\theta\in \Theta(\Pi)} D(\theta)\ \Big|\ \Phi(\theta)\le 0 \Big\},
-$$
+$
 where $H_\Pi$ is the Shannon cost of choosing an outcome of $\Pi$, and $D(\theta)$ is the description length of the resulting dimensionless constant vector $\theta$ under symmetry‑consistent priors.
 
 - **Budget attribution.** Let $\theta=(\theta_1,\dots,\theta_n)$ be dimensionless constants (Planck units, mixing angles, mass ratios). Define
