@@ -42,21 +42,16 @@ Any additive, order‑independent attribution (e.g. Shapley/Fisher‑block) is a
 Under Axioms 1–4, the first observation induces a finite entropy seed $S_0$ such that:
 
 1. (**Sum rule**) The parameter description length at optimum equals the seed,
-$$
-D(\theta^\star) \;=\; S_0.
-$$
+$D(\theta^\star) \;=\; S_0.$
 
 2. (**Partition**) The budgets $B_i$ satisfy $\sum_i B_i = S_0$. Sectoral sums
-$$
-B_{\rm vacuum} + B_{\rm gravity} + B_{\rm cosmo} + B_{\rm matter} + B_{\rm gauge} \;=\; S_0
-$$
+$B_{\rm vacuum} + B_{\rm gravity} + B_{\rm cosmo} + B_{\rm matter} + B_{\rm gauge} \;=\; S_0$
 are invariant under refinement of $\theta$ (up to $o(1)$ bits).
 
 3. (**Collapse cost**) Transition from the fully degenerate regime (“P = NP” metaphor) to a law‑bearing branch (“P≠NP”) is equivalent to spending $S_0$ bits of information: observation breaks the symmetry and fixes constants.
 
 *Sketch.* MDL gives
-$
-\theta^\star = \arg\min_\theta \{ D(\theta) \mid \Phi(\theta)\le0 \}.
+$\theta^\star = \arg\min_\theta \{ D(\theta) \mid \Phi(\theta)\le0 \}.
 $
 The minimal $D$ is finite if the priors are proper on $\Theta$ and the feasible set is non‑empty. The first observation selects $\Pi^\star$ minimizing $H_\Pi+ D(\theta^\star)$. Attribution yields budgets $\{B_i\}$. Additivity and invariance follow from standard properties of Shapley/Fisher decompositions under refinement.
 
@@ -69,9 +64,7 @@ The minimal $D$ is finite if the priors are proper on $\Theta$ and the feasible 
 - **Seed estimate.** $S_0 \approx \sum_i \big[\text{bits}(\theta_i)\big] + \sum_k \text{penalty}_k(\theta)$.
 
 In today’s **v0.1** pass with broad penalties and a standard constant set, we obtain:
-$$
-S_0 \;\approx\; \mathbf{915.92}\ \text{bits.}
-$$
+$S_0 \;\approx\; \mathbf{915.92}\ \text{bits.}$
 
 Sector ordering is stable: $B_{\rm vacuum} \gg B_{\rm gravity} \gtrsim B_{\rm cosmo} \gtrsim B_{\rm matter} \gtrsim B_{\rm gauge}$.
 
