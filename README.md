@@ -2,10 +2,10 @@
 # The Entropy‑Seed Split (ESS) — v0.1 (Draft)
 
 **Punchline.** *There exists a finite number of bits, the **entropy seed** $S_0$, equal to the minimal information required to select a law‑bearing vacuum branch from a maximally symmetric pre‑observation ensemble. Observation “spends” these bits; the spend partitions into the constants of nature. In operational form:*
-$$
-\boxed{\text{“P = NP”} \;-\; S_0\ \text{bits} \;\;\Longrightarrow\;\; \text{the observed Universe (P≠NP world).}}
-$$
 
+```math
+{“P = NP”} \;-\; S_0\ \text{bits} \;\;\Longrightarrow\;\; \text{the observed Universe (P≠NP world)
+```
 ---
 
 ## Axioms
