@@ -104,4 +104,4 @@ Sector ordering is stable: $B_{\rm vacuum} \gg B_{\rm gravity} \gtrsim B_{\rm co
 
 ---
 
-*Tagline:* **P = NP − $S_0$ bits.** With $S_0 \approx 916 $ in the current pass.
+*Tagline:* **P = NP − $S_0$ bits.** With $S_0 \approx 916$ in the current pass.
